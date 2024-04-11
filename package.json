@@ -1,0 +1,16 @@
+{
+  "name": "zapjob",
+  "version": "1.0.0",
+  "description": "an app for the job seeker & job giver",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run watch",
+    "watch": "npm run client && npm run server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
